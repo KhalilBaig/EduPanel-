@@ -55,13 +55,12 @@ function Home({ setUser }) {
           <div className="logo">📖</div>
         </div>
         <div className="card-right">
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div className="top-bar">
             <h2 className="form-title">Choose Your Role</h2>
             {/* Theme toggle button */}
             <button
               type="button"
-              className="btn"
-              style={{ width: "auto", padding: "6px 12px" }}
+              className="btn theme-btn"
               onClick={() => setDark(!dark)}
             >
               {dark ? <FiSun /> : <FiMoon />}
