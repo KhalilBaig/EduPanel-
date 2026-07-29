@@ -4,7 +4,7 @@ ghpages.publish(
     "dist",
     {
         branch: "gh-pages",
-        repo: "https://github.com/KhalilBaig/EduPanel-Student-Portal-UI.git",
+        repo: "https://github.com/KhalilBaig/EduPanel-.git",
         message: "Deploy React app",
         dotfiles: true,
         add: true,      // ⚡ purana delete nahi karega, overwrite karega (ENAMETOOLONG fix)
